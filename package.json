@@ -1,0 +1,19 @@
+{
+  "name": "solctemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compileAll.js",
+  "scripts": {
+    "compile": "node compileAll.js",
+    "migrate": "node deploy.js",
+    "simulate": "npm run compile; npm run migrate; node run.js"
+  },
+  "author": "Anupam Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "solc": "^0.8.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.1"
+  }
+}
