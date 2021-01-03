@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "node compileAll.js",
     "migrate": "node deploy.js",
-    "simulate": "npm run compile; npm run migrate; node run.js"
+    "simulate": "node run.js"
   },
   "author": "Anupam Kumar",
   "license": "ISC",

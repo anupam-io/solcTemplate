@@ -5,12 +5,25 @@ async function run(){
     try {
         const accounts = await web3.eth.getAccounts();
         
-        await instance.methods.hello()
+        await instance.methods.enter()
         .send({
-            from: accounts[0],
-            gas: '1000000',
-            value: web3.utils.toWei('10', 'ether')
+            from: accounts[0], value: web3.utils.toWei('1000', 'ether')
+        });await instance.methods.enter()
+        .send({
+            from: accounts[1], value: web3.utils.toWei('1000', 'ether')
+        });await instance.methods.enter()
+        .send({
+            from: accounts[2], value: web3.utils.toWei('1000', 'ether')
+        });await instance.methods.enter()
+        .send({
+            from: accounts[3], value: web3.utils.toWei('1000', 'ether')
+        });await instance.methods.enter()
+        .send({
+            from: accounts[4], value: web3.utils.toWei('1000', 'ether')
         });
+
+
+
     } catch (err) {
         console.log("Error occured: ", err.message);
     }
