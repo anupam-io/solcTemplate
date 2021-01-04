@@ -1,6 +1,12 @@
 # solcTemplate-testing
 Solidity Template for smart contract testing
 
+# Instructions for deploying on a network/ganache
+ - If you are testing on ganache
+   - you don't need a seed phrase, as you can query ganache for unlocked accounts
+ - If you want to deploy on a network(such as a test network or mainnet)
+   - you need to set `seedPhrase` and `rpcEndpoint` appropriately
+
 ## Commands
  - `npm i`: for package installation
  - `npm run compile`: compilation of contracts

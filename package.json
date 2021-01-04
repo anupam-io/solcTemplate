@@ -5,7 +5,8 @@
   "main": "compileAll.js",
   "scripts": {
     "compile": "node compileAll.js",
-    "test": "mocha"
+    "test": "mocha",
+    "migrate": "cd migrate; node 1_deploy.js cd ..;"
   },
   "author": "Anupam Kumar",
   "license": "ISC",
