@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "node compileAll.js",
     "test": "mocha",
-    "migrate": "cd migrate; node 1_deploy.js cd ..;"
+    "migrate": "node migrateAll.js;"
   },
   "author": "Anupam Kumar",
   "license": "ISC",
