@@ -1,5 +1,4 @@
-# solcTemplate-testing
-Solidity Template for smart contract testing
+# Custom smart contract development kit with mocha & ganache-cli
 
 # Instructions for deploying on a network/ganache
  - If you are testing on ganache
