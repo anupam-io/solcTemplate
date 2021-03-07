@@ -39,6 +39,8 @@ Successfully deployed at:  0xFb056459D6B077CC3cDE71E592f63dA07BEb78aC
 ## Dependencies
 ```
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "async": "^3.2.0",
     "fs-extra": "^9.0.1",
     "ganache-cli": "^6.12.1",
     "mocha": "^8.2.1",
